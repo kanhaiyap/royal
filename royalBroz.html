@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>royalBroz</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="bike.css">
+    <script type="text/javascript" src="royalBroz.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="LOGO.jpg" alt="">
+
+      <ul>
+        <li><a href="loginbike.html"> login/signup </a></li>
+        <li>
+        <a href="#"><i class="fas fa-mobile-alt">9731615178</i> </a></li>
+      </ul>
+    </header>
+      <section>
+        <div class="bg-img">
+          <img src="slides/images.jpg" name="slide" style="width:100%; height:320px">
+          <script type="text/javascript">
+          var step=1;
+          function slideit(){
+
+            document.images.slide.src=eval("img"+step+".src")
+            if(step<6)
+              step++;
+
+            else
+              step=1;
+
+              setTimeout("slideit()",2500);
+
+          }
+          slideit()
+
+
+
+          </script>
+        </div>
+        <div class="booking" id="booking-details">
+          <form class="" action="index.html" method="post">
+            <ul>
+              <li><p class="label">Pickup Date</p>
+              <input type="date" name="pickup" value="Pick" placeholder="pickup Date"></li>
+              <li><p class="label">Pickup Time</p>
+              <input type="time" date-Time="[09:30 AM, 09:30 PM]" name="" value=""></li>
+              <li><p class="label">Drop Date</p>
+              <input type="date" name="pickup" value="Pick" placeholder="pickup Date"></li>
+              <li><p class="label">Drop Time</p>
+              <input type="time" date-Time="[09:30 AM, 09:30 PM]" name="" value=""></li>
+
+              <li><p id="search1"><button onclick="search()" type="button" name="search"><a href="#"> Search</a></button></p></li>
+            </ul>
+          </form>
+        </div>
+
+
+        <div class="img">
+
+          <div class="box"> <a href="#"> <img src="img/download.jfif" alt="" width="300" height="200"></a><p>15rs/km</p> </div>
+          <div class="box"><img src="img/download (1).jfif" alt="" width="300" height="200"><p>15rs/km</p></div>
+          <div class="box"><img src="img/download (2).jfif" alt="" width="300" height="200"><p>15rs/km</p></div>
+          <div class="box"><img src="img/download (3).jfif" alt="" width="300" height="200"><p>15rs/km</p></div>
+          <div class="box"><img src="img/images.jfif" alt="" width="300" height="200"><p>15rs/km</p></div>
+          <div class="box"><img src="img/images (1).jfif" alt="" width="300" height="200"><p>15rs/km</p></div>
+
+        </div>
+    </section>
+    <footer>
+
+
+      <div class="info">
+        <h1>Rent bikes in bangalore</h1><p>rent bikes to get the best out of the city’s bustling streets. Need a hassle-free commute? Then rent a scooter with us to cruise through the traffic and reach your destination easily. Want to go to Nandi hills? We have bikes for rent like Pulsar, KTM, MOJO or Dominar or Royal Enfields that you can choose from! Want to celebrate a birthday or anniversary? We also provide motorcycles on rent, such as Harley Davidsons. You can now rent a Harley, Ducati,
+        Triumph or a Daytona to make your day! Don’t wait around for an OLA or UBER or cram your way through crowded buses since you can hire a bike, which is much easier and convenient to travel around the city. Best of all, It’s a lot easier to park a bike in a metropolitan like Bangalore!</p>
+        <h1>Hire a bike in Bangalore</h1><p> We know you love scooters and motorbikes, so why not just get to your nearest bike rentals and rent a bike? Planning to buy a scooter or bike soon, but don’t know what to own? Take a test-drive through rent a bike or rent a scooter option for the cheapest rates, and know what suits your needs the best! No need to worry about those long procedures and formalities of purchasing a two-wheeler, when you can simply rent a bike! At rent bikes, we’ll provide you your dream motorbike or scooter to drive around the city and enjoy your travel like no one else! Need to get to the airport to pick a friend up? Bike rentals like rent bikes has a pick-up location at Hebbal, conveniently allowing you to reach the airport without delay or spending excessively on airport taxis or A/C buses. Now rent bike in Bangalore for all your needs.</p>
+        <p>© Copyright 2019 Royalbison AutoRentals India Private Ltd. All rights reserved.</p>
+      </div>
+
+    </footer>
+
+  </body>
+</html>

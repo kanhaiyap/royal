@@ -1,0 +1,120 @@
+
+header{
+  background-color: violet;
+  position: absolute;
+  top: 0px;
+  width: auto;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+header ul {
+  list-style: none;
+  font-size: 20px;
+  position: relative;
+  float: right;
+  right: 70px;
+
+}
+
+header ul li{
+  display: inline-block;
+  margin: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.bg-img img{
+  position: absolute;
+  top: 105px;
+  left:0;
+
+}
+
+.booking{
+  position: absolute;
+  background-color: black;
+  opacity: .7;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+.booking ul li {
+  display: inline-block;
+  margin: 10px;
+  color: white;
+
+}
+.booking ul li input{
+  outline: none;
+  background-color: transparent;
+  border:none;
+  color: white;
+  border-bottom: 1px solid yellow;
+}
+.label{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.img{
+  position: absolute;
+  top:120%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin: 10px;
+  padding: 10px;
+  width: 96.5%;
+  height: 100%;
+
+
+}
+.img img{
+
+    padding: 10px;
+    margin:10px;
+    overflow: auto;
+    box-sizing: 80px;
+
+}
+.box{
+  float: left;
+   padding: 20px;
+    margin:20px;
+    text-align: center;
+
+}
+footer{
+  position: absolute;
+  top:190%;
+  background-color: grey;
+  color:white;
+}
+.info{
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+
+}
+@media screen and (max-width: 250px) {
+
+  footer{
+    display: none;
+
+  }
+  .info{
+    position: absolute;
+    top: 350%;
+  }
+}
